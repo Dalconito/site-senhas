@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <h1>COFRE DE SENHAS</h1>
+    <link rel="stylesheet" href="estilo.css">
+
+    
+</head>
+
+<body id="body">
+  <table>
+    <form action="" target="_self" method="get">
+      <tr><td><label for="nome_titulo" id="escrita">Login: </label></td>
+      <td><input type="text" id="fname" name="data_login"></td></tr>
+
+      <tr><td><label for="valor_titulo" id="escrita">Senha: </label></td>
+      <td><input type="text" id="lname" name="data_senha"></td></tr>
+      
+      <tr><td><label for="valor_titulo" id="escrita">Site: </label></td>
+      <td><input type="text" id="lname" name="data_site"></td></tr>
+        
+      <tr><td><label for="valor_titulo" id="escrita">Usuario: </label></td>
+      <td><input type="text" id="lname" name="data_usr"></td></tr>
+      
+      <tr><td><label for="valor_titulo" id="escrita" class="cat_escolha">Categoria: </label></td>
+      <td><select list="valor_titulo" id="escrita" class="body" name="data_cat">
+      <option value="Empresas">Empresas</option>
+      <option value="Email">Email</option>
+      <option value="Serviços">Serviços</option>
+      <option value="Redes Sociais">Redes Sociais</option>
+      <option value="Tecnologia">Tecnologia</option>
+      <option value="Sites">Sites</option>
+      </select></td></tr>
+
+      <tr><td><input type="submit" id="botão1" class="button" value="Submit">
+      <button id="atualizar" id="botão1" class="button" onclick="atualizar()">Refresh</button></tr></td>
+    
+    </form>
+  </table>
+  <button id="atualizar" id="botão1" class="button" onclick="window.location.href = '/mostrar';">Mostrar</button>
+  <button id="atualizar" id="botão1" class="button" onclick="window.location.href = '/';">Sair</button>
+
+    <script src="script.js"></script>
+
+
+
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <head>
+    <title>Visualizar</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="fotos/LT.jpg" type="image/x-icon">
+
+    </head>
+    <body id="body">
+
+        <table id="tabela">
+            <tr><th>Login </th><th>Senha </th><th>Site </th><th>Usuario </th>  <th>Categoria </th></tr>
+            <% for (var a=0; a<filtro_arr.length; a++) { %>
+                <tr>
+                    <td id="td"> <%= leitura[filtro_arr[a]].data_login %></td>
+                    <td id="td"> <%= leitura[filtro_arr[a]].data_senha %></td>
+                    <td id="td"> <%= leitura[filtro_arr[a]].data_site  %></td>''
+                    <td id="td"> <%= leitura[filtro_arr[a]].data_usr   %></td>
+                    <td id="td"> <%= leitura[filtro_arr[a]].data_cat   %></td>
+                </tr>
+            <% } %>
+
+        </table>
+
+        <br><br><br>
+        <form action="/inicial">
+            <input type="submit" value="Voltar">
+        </form>
+
+        <table id="tabela">
+            <tr><th>Login </th><th>Senha </th><th>Site </th><th>Usuario </th>  <th>Categoria </th></tr>
+
+            <% for (var i=0; i<leitura.length-1; i++) { %>
+                <tr>
+                <td id="td"> <%= leitura[i].data_login      %></td>
+                <td id="td"> <%= leitura[i].data_senha      %></td>
+                <td id="td"> <%= leitura[i].data_site       %></td>
+                <td id="td"> <%= leitura[i].data_usr        %></td>
+                <td id="td"> <%= leitura[i].data_cat        %></td>
+                </tr>
+            <% } %>
+        </table>
+
+        <div id="body">
+            <form action="" target="_self" method="get">
+
+                <label for="procura_titulo" id="escrita">Site a Procurar: </label>
+                <input type="text" id="fname" name="procura_titulo">
+                
+                    <tr><td><label for="valor_titulo" id="escrita" >Categoria: </label></td>
+                    <td><select list="valor_titulo" id="escrita" class="cat_escolha" name="data_cat">
+                    <option value="null">Selecione uma Categoria</option>
+                    <option value="Empresas">Empresas</option>
+                    <option value="Email">Email</option>
+                    <option value="Serviços">Serviços</option>
+                    <option value="Redes Sociais">Redes Sociais</option>
+                    <option value="Sites">Sites</option>
+                    <option value="Jogos">Jogos</option>
+                    </select></td></tr>
+
+                <input type="submit" id="botão1" class="button" value="Procurar">
+
+                <button id="Editar" id="botão1" class="button" onclick="atualizar()">Atualizar</button>
+
+            </form> 
+        </div><br><br><br>
+    </body>
+</html>

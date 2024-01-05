@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body id="body">
+    <div id="log">
+        <form action="" method="get">
+            <label for="login">Usuario</label>
+            <input type="text" name="login_usr" id="login"><br><br>
+            
+            <label for="senha">Senha</label>
+            <input type="password" name="senha_usr" id="senha"><br>
+            
+            <input type="submit" value="Verificar" class="button">
+        </form>
+        <div>
+
+            <form action="/inicial">
+                <input <%=existente%> type="submit" value="Entrar" class="button">
+            </form>
+
+            <form action="/cadastro" >
+                <input type="submit" value="Cadastre-se" class="button">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

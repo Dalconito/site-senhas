@@ -1,0 +1,85 @@
+.button 
+{
+  background-color: #0d0f0fbb; /* Green */
+  color: rgba(245, 246, 245, 0.34);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+  border-top-left-radius:     40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius:    40px;
+}
+#body
+{
+  background-color: rgba(0, 63, 63, 0.986);
+  color: rgba(239, 227, 227, 0.936);
+}
+#botão1
+{
+font: size 2px;
+} 
+.fname
+{
+background-color: green;
+color: green;
+background: transparent;
+}
+input
+{
+background-color: rgba(67, 63, 63, 0.986);
+color: rgba(239, 227, 227, 0.936);
+font-size: 18px;
+}
+div
+{
+margin-bottom: 10px;
+}
+
+#escrita
+{
+font-size : 25px;
+}
+
+#tabela 
+{
+font-size: 30px;
+border-collapse: collapse;
+width: 100%; border: 1px solid black;
+}
+#td 
+{
+border: 1px solid black;
+}
+
+#log
+{
+  text-align: center;
+}
+
+/* TELA DE LOGIN */
+
+.button_entrar
+{
+  background-color: #0d0f0fbb; /* Green */
+  color: rgba(245, 246, 245, 0.34);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+  border-top-left-radius:     40px;
+  border-bottom-right-radius: 40px;
+  border-top-right-radius:    40px;
+}
+
+.cat_escolha
+{
+  background-color: rgba(0, 63, 63, 0.986);
+  color: rgba(255, 255, 255, 0.34);
+}

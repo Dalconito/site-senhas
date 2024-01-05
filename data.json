@@ -1,0 +1,100 @@
+[
+    {
+        "data_login": null,
+        "data_senha": null,
+        "data_site": null,
+        "data_usr": null,
+        "data_cat": null
+    },
+    {
+        "data_login": "48574472824",
+        "data_senha": "46164333",
+        "data_site": "RICO",
+        "data_usr": "Leoni",
+        "data_cat": "Empresas"
+    },
+    {
+        "data_login": "terto.leoni@outlook.com",
+        "data_senha": "ELectroball4365",
+        "data_site": "MICROSOFT",
+        "data_usr": "Leoni",
+        "data_cat": "Email"
+    },
+    {
+        "data_login": "leoniterto",
+        "data_senha": "SEMsenha8899",
+        "data_site": "bet365",
+        "data_usr": "Leoni",
+        "data_cat": "Sites"
+    },
+    {
+        "data_login": "gastronomy.mi@gmail.com",
+        "data_senha": "Pudim1218",
+        "data_site": "gmail",
+        "data_usr": "Michele",
+        "data_cat": "Email"
+    },
+    {
+        "data_login": "gastronomy.mi@gmail.com",
+        "data_senha": "Pudim1218*",
+        "data_site": "Ifood",
+        "data_usr": "Michele",
+        "data_cat": "Empresas"
+    },
+    {
+        "data_login": "mica.tapioca@bol.com.br",
+        "data_senha": "Pudim1218*",
+        "data_site": "Facebook",
+        "data_usr": "Michele",
+        "data_cat": "Redes Sociais"
+    },
+    {
+        "data_login": "mica.tapioca@bol.com.br",
+        "data_senha": "Pudim0912*",
+        "data_site": "Instagram",
+        "data_usr": "Michele",
+        "data_cat": "Redes Sociais"
+    },
+    {
+        "data_login": "quentefriogastronomia",
+        "data_senha": "Pudim1218*",
+        "data_site": "instagram",
+        "data_usr": "Michele",
+        "data_cat": "Redes Sociais"
+    },
+    {
+        "data_login": "terto.leoni@gmail.com",
+        "data_senha": "$EMSenha8899",
+        "data_site": "GUPY",
+        "data_usr": "Leoni",
+        "data_cat": "Empresas"
+    },
+    {
+        "data_login": "terto.leoni@gmail.com",
+        "data_senha": "ComSenha8899",
+        "data_site": "abeecortex",
+        "data_usr": "Leoni",
+        "data_cat": "Empresas"
+    },
+    {
+        "data_login": "48574472824",
+        "data_senha": "Semsenha8899",
+        "data_site": "claro",
+        "data_usr": "Leoni",
+        "data_cat": "Tecnologia"
+    },
+    {
+        "data_login": "terto.leoni@outlook.com",
+        "data_senha": "SEMsenha8899",
+        "data_site": "render.com",
+        "data_usr": "Leoni",
+        "data_cat": "Tecnologia"
+    },
+    {
+        "data_login": "VALDIR",
+        "data_senha": "123",
+        "data_site": "gmail",
+        "data_usr": "Leoni",
+        "data_cat": "Serviços"
+    }
+]
